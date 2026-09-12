@@ -2880,6 +2880,218 @@
     "bytes": 1920
   },
   {
+    "rel": "server/colors/_internal/parseHex.ts",
+    "bytes": 1383
+  },
+  {
+    "rel": "server/colors/_internal/wrapAnsi.ts",
+    "bytes": 823
+  },
+  {
+    "rel": "server/colors/_internal/wrapAnsiBg.ts",
+    "bytes": 1306
+  },
+  {
+    "rel": "server/colors/ansi256.ts",
+    "bytes": 588
+  },
+  {
+    "rel": "server/colors/bgAnsi256.ts",
+    "bytes": 594
+  },
+  {
+    "rel": "server/colors/bgBlack.ts",
+    "bytes": 389
+  },
+  {
+    "rel": "server/colors/bgBlackBright.ts",
+    "bytes": 416
+  },
+  {
+    "rel": "server/colors/bgBlue.ts",
+    "bytes": 386
+  },
+  {
+    "rel": "server/colors/bgBlueBright.ts",
+    "bytes": 406
+  },
+  {
+    "rel": "server/colors/bgCyan.ts",
+    "bytes": 386
+  },
+  {
+    "rel": "server/colors/bgCyanBright.ts",
+    "bytes": 406
+  },
+  {
+    "rel": "server/colors/bgGreen.ts",
+    "bytes": 389
+  },
+  {
+    "rel": "server/colors/bgGreenBright.ts",
+    "bytes": 409
+  },
+  {
+    "rel": "server/colors/bgHex.ts",
+    "bytes": 747
+  },
+  {
+    "rel": "server/colors/bgMagenta.ts",
+    "bytes": 395
+  },
+  {
+    "rel": "server/colors/bgMagentaBright.ts",
+    "bytes": 415
+  },
+  {
+    "rel": "server/colors/bgRed.ts",
+    "bytes": 383
+  },
+  {
+    "rel": "server/colors/bgRedBright.ts",
+    "bytes": 403
+  },
+  {
+    "rel": "server/colors/bgRgb.ts",
+    "bytes": 697
+  },
+  {
+    "rel": "server/colors/bgWhite.ts",
+    "bytes": 389
+  },
+  {
+    "rel": "server/colors/bgWhiteBright.ts",
+    "bytes": 409
+  },
+  {
+    "rel": "server/colors/bgYellow.ts",
+    "bytes": 392
+  },
+  {
+    "rel": "server/colors/bgYellowBright.ts",
+    "bytes": 412
+  },
+  {
+    "rel": "server/colors/black.ts",
+    "bytes": 379
+  },
+  {
+    "rel": "server/colors/blackBright.ts",
+    "bytes": 405
+  },
+  {
+    "rel": "server/colors/blue.ts",
+    "bytes": 376
+  },
+  {
+    "rel": "server/colors/blueBright.ts",
+    "bytes": 395
+  },
+  {
+    "rel": "server/colors/bold.ts",
+    "bytes": 369
+  },
+  {
+    "rel": "server/colors/cyan.ts",
+    "bytes": 376
+  },
+  {
+    "rel": "server/colors/cyanBright.ts",
+    "bytes": 395
+  },
+  {
+    "rel": "server/colors/dim.ts",
+    "bytes": 374
+  },
+  {
+    "rel": "server/colors/gray.ts",
+    "bytes": 469
+  },
+  {
+    "rel": "server/colors/green.ts",
+    "bytes": 379
+  },
+  {
+    "rel": "server/colors/greenBright.ts",
+    "bytes": 398
+  },
+  {
+    "rel": "server/colors/hex.ts",
+    "bytes": 737
+  },
+  {
+    "rel": "server/colors/hidden.ts",
+    "bytes": 417
+  },
+  {
+    "rel": "server/colors/index.ts",
+    "bytes": 2591
+  },
+  {
+    "rel": "server/colors/inverse.ts",
+    "bytes": 408
+  },
+  {
+    "rel": "server/colors/italic.ts",
+    "bytes": 375
+  },
+  {
+    "rel": "server/colors/magenta.ts",
+    "bytes": 385
+  },
+  {
+    "rel": "server/colors/magentaBright.ts",
+    "bytes": 404
+  },
+  {
+    "rel": "server/colors/red.ts",
+    "bytes": 373
+  },
+  {
+    "rel": "server/colors/redBright.ts",
+    "bytes": 392
+  },
+  {
+    "rel": "server/colors/reset.ts",
+    "bytes": 419
+  },
+  {
+    "rel": "server/colors/rgb.ts",
+    "bytes": 679
+  },
+  {
+    "rel": "server/colors/strikethrough.ts",
+    "bytes": 396
+  },
+  {
+    "rel": "server/colors/types.ts",
+    "bytes": 54
+  },
+  {
+    "rel": "server/colors/underline.ts",
+    "bytes": 385
+  },
+  {
+    "rel": "server/colors/white.ts",
+    "bytes": 379
+  },
+  {
+    "rel": "server/colors/whiteBright.ts",
+    "bytes": 398
+  },
+  {
+    "rel": "server/colors/yellow.ts",
+    "bytes": 382
+  },
+  {
+    "rel": "server/colors/yellowBright.ts",
+    "bytes": 401
+  },
+  {
+    "rel": "server/index.ts",
+    "bytes": 145
+  },
+  {
     "rel": "set/countBy.ts",
     "bytes": 1323
   },

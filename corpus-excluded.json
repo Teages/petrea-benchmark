@@ -2393,420 +2393,204 @@
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/_internal/parseHex.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/_internal/wrapAnsi.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/_internal/wrapAnsi.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/_internal/wrapAnsiBg.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/_internal/wrapAnsiBg.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/ansi256.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/ansi256.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgAnsi256.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgAnsi256.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgBlack.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgBlack.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgBlackBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgBlackBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgBlue.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgBlue.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgBlueBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgBlueBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgCyan.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgCyan.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgCyanBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgCyanBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgGreen.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgGreen.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgGreenBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgGreenBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgHex.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgHex.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgMagenta.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgMagenta.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgMagentaBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgMagentaBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgRed.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgRed.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgRedBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgRedBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgRgb.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgRgb.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgWhite.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgWhite.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgWhiteBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgWhiteBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bgYellow.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bgYellow.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/bgYellowBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/bgYellowBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/black.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/black.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/blackBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/blackBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/blue.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/blue.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/blueBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/blueBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/bold.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/bold.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/cyan.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/cyan.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/cyanBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/cyanBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/dim.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/dim.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/gray.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/gray.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/green.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/green.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/greenBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/greenBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/hex.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/hex.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/hidden.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/hidden.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
-      "rel": "server/colors/index.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/inverse.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/inverse.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/italic.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/italic.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/magenta.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/magenta.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/magentaBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/magentaBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/red.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/red.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/redBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/redBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/reset.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/reset.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/rgb.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/rgb.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/strikethrough.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/strikethrough.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
-      "rel": "server/colors/types.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/underline.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/underline.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/white.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/white.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/whiteBright.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/colors/whiteBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "server/colors/yellow.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/yellow.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/colors/yellowBright.spec.ts",
       "reason": "test/declaration file"
     },
     {
-      "rel": "server/colors/yellowBright.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
       "rel": "server/exec.spec.ts",
       "reason": "test/declaration file"
-    },
-    {
-      "rel": "server/exec.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
-    },
-    {
-      "rel": "server/index.ts",
-      "reason": "parameter properties (unsupported by ts-blank-space)"
     },
     {
       "rel": "set/countBy.spec.ts",
@@ -3089,6 +2873,10 @@
     {
       "rel": "function/retry.ts",
       "reason": "oxidase: output length 5722 != input 5720"
+    },
+    {
+      "rel": "server/exec.ts",
+      "reason": "petrea: unsupported TypeScript syntax (runtime TS construct) | oxidase: output length 4252 != input 4226 | ts-blank-space: unsupported TypeScript syntax (runtime TS construct)"
     }
   ]
 }

@@ -38,8 +38,8 @@ Raw output: `bench-output.txt`.
 - rolldown 1.2.8 — `rolldown/experimental` transform (oxc-transform, in-process napi); full TS→JS rewrite, not position-preserving.
 - esbuild 0.28.2 — npm JS API, per-file `transform` across the Go service IPC.
 - Our changes: oxidase's source (submodule @ `045ea46`, the exact source of the npm release) is built as a local napi binding via `patches/oxidase-native.patch` — a line-for-line mirror of upstream's wasm binding, plus a locally added async API (upstream ships sync-only).
-- Corpus: es-toolkit `src/` (submodule @ `9c6ca7d`), 793 files / 1.49 MB; every file accepted by every stripper with output length identical to input. One file excluded — an oxidase 0.0.3 length bug (`corpus-excluded.json`).
-- Measurement: one timed iteration = transpile all files sequentially, sources preloaded in memory; `concurrent` rows submit all files at once (`Promise.all`) and measure batch wall-clock. Numbers are from an idle-machine run.
+- Corpus: es-toolkit `src/` (submodule @ `9c6ca7d`), 846 files / 1.51 MB; every file accepted by every stripper in strict mode with output length identical to input. Two files excluded (`corpus-excluded.json`): `function/retry.ts` — oxidase 0.0.3 emits output longer than its input; `server/exec.ts` — parameter properties, unsupported by all three.
+- Measurement: one timed iteration = transpile all files sequentially, sources preloaded in memory; `concurrent` rows submit all files at once (`Promise.all`) and measure batch wall-clock. Numbers are measured by the GitHub Actions workflow on the runner listed in Environment.
 
 ## Reproduce
 

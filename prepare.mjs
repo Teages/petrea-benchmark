@@ -1,6 +1,7 @@
 // Builds the benchmark corpus from the es-toolkit submodule.
-// A file is included only if all three transpilers accept it (strict, default
-// onError behavior), so no implementation is measured on less work.
+// A file is included only if all three transpilers accept it in strict mode
+// (explicit throwing onError / default throwing behavior) and preserve the
+// input length — no directory-level exclusions beyond test/declaration files.
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { pathToFileURL } from 'node:url'
@@ -26,10 +27,6 @@ const candidates = all.filter((p) => {
     skipped.push({ rel, reason: 'test/declaration file' })
     return false
   }
-  if (rel.startsWith('server/')) {
-    skipped.push({ rel, reason: 'parameter properties (unsupported by ts-blank-space)' })
-    return false
-  }
   return true
 })
 
@@ -37,10 +34,13 @@ const { transpileSync: petreaSync } = await import(pathToFileURL(join(root, 'nod
 const { transpile: oxidaseTranspile } = await import('oxidase')
 const tsBlankSpace = (await import('ts-blank-space')).default
 
+const onUnsupported = () => {
+  throw new Error('unsupported TypeScript syntax (runtime TS construct)')
+}
 const tools = {
-  'petrea': s => petreaSync(s),
+  'petrea': s => petreaSync(s, { onError: onUnsupported }),
   'oxidase': s => oxidaseTranspile(s),
-  'ts-blank-space': s => tsBlankSpace(s),
+  'ts-blank-space': s => tsBlankSpace(s, onUnsupported),
 }
 
 const corpus = []
@@ -69,7 +69,7 @@ writeFileSync(join(root, 'corpus.json'), JSON.stringify(corpus, null, 2))
 writeFileSync(join(root, 'corpus-excluded.json'), JSON.stringify({ skipped, excluded }, null, 2))
 
 console.log(`corpus: ${corpus.length} files, ${(bytes / 1e6).toFixed(2)} MB`)
-console.log(`skipped (test/declaration/server): ${skipped.length}`)
+console.log(`skipped (test/declaration): ${skipped.length}`)
 if (excluded.length > 0) {
   console.log(`excluded (tool failures): ${excluded.length}`)
   for (const e of excluded) console.log(`  - ${e.rel}: ${e.reason}`)

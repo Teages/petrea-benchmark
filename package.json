@@ -1,0 +1,26 @@
+{
+  "name": "petrea-promo-bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench": "vitest bench --run",
+    "build:oxidase-native": "sh build-oxidase-native.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "oxidase": "^0.0.3",
+    "petrea": "^0.4.1",
+    "ts-blank-space": "^0.9.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "mkdist": "^2.4.1",
+    "rolldown": "^1.2.8",
+    "vitest": "^4.1.11"
+  }
+}

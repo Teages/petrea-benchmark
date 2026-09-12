@@ -1,0 +1,6 @@
+[submodule "vendor/es-toolkit"]
+	path = vendor/es-toolkit
+	url = https://github.com/toss/es-toolkit
+[submodule "vendor/oxidase"]
+	path = vendor/oxidase
+	url = https://github.com/branchseer/oxidase

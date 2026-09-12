@@ -1,0 +1,44 @@
+[33mBenchmarking is an experimental feature.
+Breaking changes might not follow SemVer, please pin Vitest's version when using it.[39m
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/home/runner/work/petrea-benchmark/petrea-benchmark[39m
+
+(node:3703) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ [32m✓[39m bench/transpile.bench.ts[2m > [22mes-toolkit src, per-file — 793 files / 1.49 MB per pass[33m 55980[2mms[22m[39m
+     [1mname                               [22m  [1m     hz[22m  [1m    min[22m  [1m    max[22m  [1m   mean[22m  [1m    p75[22m  [1m    p99[22m  [1m   p995[22m  [1m   p999[22m  [1m   rme[22m  [1msamples[22m
+   [32m·[39m oxidase (wasm, published)            [34m62.1852[39m  [36m15.6659[39m  [36m20.9168[39m  [36m16.0810[39m  [36m16.1112[39m  [36m18.4265[39m  [36m20.9168[39m  [36m20.9168[39m  [2m±0.51%[22m  [2m    187[22m
+   [32m·[39m oxidase (native)                     [34m 133.39[39m  [36m 7.3938[39m  [36m10.9645[39m  [36m 7.4966[39m  [36m 7.4944[39m  [36m 7.8378[39m  [36m 7.8992[39m  [36m10.9645[39m  [2m±0.30%[22m  [2m    401[22m
+   [32m·[39m oxidase (native, async)              [34m34.2541[39m  [36m25.3229[39m  [36m54.0345[39m  [36m29.1936[39m  [36m28.9733[39m  [36m52.1960[39m  [36m54.0345[39m  [36m54.0345[39m  [2m±3.60%[22m  [2m    103[22m
+   [32m·[39m oxidase (native, async, concurrent)  [34m68.3438[39m  [36m 8.1679[39m  [36m18.9589[39m  [36m14.6319[39m  [36m16.7197[39m  [36m18.2172[39m  [36m18.4034[39m  [36m18.9589[39m  [2m±2.54%[22m  [2m    206[22m
+   [32m·[39m ts-blank-space                       [34m15.8371[39m  [36m55.4221[39m  [36m 121.82[39m  [36m63.1429[39m  [36m63.1270[39m  [36m 121.82[39m  [36m 121.82[39m  [36m 121.82[39m  [2m±5.41%[22m  [2m     48[22m
+   [32m·[39m petrea (native, sync)                [34m69.7133[39m  [36m14.1785[39m  [36m17.2049[39m  [36m14.3445[39m  [36m14.3734[39m  [36m14.7125[39m  [36m14.7582[39m  [36m17.2049[39m  [2m±0.22%[22m  [2m    210[22m
+   [32m·[39m petrea (native, async)               [34m25.5095[39m  [36m38.1569[39m  [36m46.9787[39m  [36m39.2011[39m  [36m39.1643[39m  [36m46.9787[39m  [36m46.9787[39m  [36m46.9787[39m  [2m±0.74%[22m  [2m     77[22m
+   [32m·[39m petrea (native, async, concurrent)   [34m73.7001[39m  [36m13.0166[39m  [36m16.1430[39m  [36m13.5685[39m  [36m13.6747[39m  [36m15.7498[39m  [36m16.0410[39m  [36m16.1430[39m  [2m±0.41%[22m  [2m    222[22m
+   [32m·[39m petrea (wasm, sync)                  [34m27.7830[39m  [36m34.2667[39m  [36m59.0182[39m  [36m35.9932[39m  [36m35.7743[39m  [36m59.0182[39m  [36m59.0182[39m  [36m59.0182[39m  [2m±2.07%[22m  [2m     84[22m
+   [32m·[39m petrea (wasm, async)                 [34m21.6829[39m  [36m43.7455[39m  [36m71.0444[39m  [36m46.1194[39m  [36m45.7423[39m  [36m71.0444[39m  [36m71.0444[39m  [36m71.0444[39m  [2m±2.46%[22m  [2m     66[22m
+   [32m·[39m petrea (wasm, async, concurrent)     [34m24.6568[39m  [36m38.5301[39m  [36m65.6890[39m  [36m40.5568[39m  [36m40.8849[39m  [36m65.6890[39m  [36m65.6890[39m  [36m65.6890[39m  [2m±1.94%[22m  [2m     74[22m
+   [32m·[39m esbuild                              [34m 2.0024[39m  [36m 482.36[39m  [36m 533.32[39m  [36m 499.41[39m  [36m 514.91[39m  [36m 533.32[39m  [36m 533.32[39m  [36m 533.32[39m  [2m±2.50%[22m  [2m     10[22m
+   [32m·[39m esbuild (concurrent)                 [34m 2.9201[39m  [36m 312.72[39m  [36m 380.93[39m  [36m 342.45[39m  [36m 346.15[39m  [36m 380.93[39m  [36m 380.93[39m  [36m 380.93[39m  [2m±4.23%[22m  [2m     10[22m
+   [32m·[39m rolldown (transformSync)             [34m36.7718[39m  [36m26.7634[39m  [36m30.3475[39m  [36m27.1948[39m  [36m27.2420[39m  [36m28.9271[39m  [36m30.3475[39m  [36m30.3475[39m  [2m±0.37%[22m  [2m    111[22m
+   [32m·[39m rolldown (transform, concurrent)     [34m45.3838[39m  [36m21.1948[39m  [36m26.8122[39m  [36m22.0343[39m  [36m22.2089[39m  [36m25.8630[39m  [36m26.8122[39m  [36m26.8122[39m  [2m±0.53%[22m  [2m    137[22m
+
+[1m[30m[46m BENCH [49m[39m[22m [36mSummary
+[39m
+  oxidase (native)[2m - bench/transpile.bench.ts[2m > [22m[2mes-toolkit src, per-file — 793 files / 1.49 MB per pass[22m
+[32m    1.81x [39m[90mfaster than [39mpetrea (native, async, concurrent)
+[32m    1.91x [39m[90mfaster than [39mpetrea (native, sync)
+[32m    1.95x [39m[90mfaster than [39moxidase (native, async, concurrent)
+[32m    2.15x [39m[90mfaster than [39moxidase (wasm, published)
+[32m    2.94x [39m[90mfaster than [39mrolldown (transform, concurrent)
+[32m    3.63x [39m[90mfaster than [39mrolldown (transformSync)
+[32m    3.89x [39m[90mfaster than [39moxidase (native, async)
+[32m    4.80x [39m[90mfaster than [39mpetrea (wasm, sync)
+[32m    5.23x [39m[90mfaster than [39mpetrea (native, async)
+[32m    5.41x [39m[90mfaster than [39mpetrea (wasm, async, concurrent)
+[32m    6.15x [39m[90mfaster than [39mpetrea (wasm, async)
+[32m    8.42x [39m[90mfaster than [39mts-blank-space
+[32m    45.68x [39m[90mfaster than [39mesbuild (concurrent)
+[32m    66.62x [39m[90mfaster than [39mesbuild
+

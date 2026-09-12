@@ -1,0 +1,3094 @@
+{
+  "skipped": [
+    {
+      "rel": "array/at.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/cartesianProduct.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/chunk.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/chunkBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/combinations.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/compact.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/countBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/difference.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/differenceBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/differenceWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/drop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/dropRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/dropRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/dropWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/fill.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/filterAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/flatMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/flatMapAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/flatMapDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/flatten.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/flattenDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/forEachAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/forEachRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/groupBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/head.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/initial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/intersection.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/intersectionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/intersectionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/isSubset.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/isSubsetWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/keyBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/last.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/mapAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/maxBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/minBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/orderBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/partition.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/pull.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/pullAt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/reduceAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/remove.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/sample.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/sampleSize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/shuffle.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/sortBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/tail.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/take.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/takeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/takeRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/takeWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/toFilled.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/union.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/unionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/unionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/uniq.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/uniqBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/uniqWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/unzip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/unzipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/windowed.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/without.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/xor.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/xorBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/xorWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/zip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/zipObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "array/zipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/clamp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/inRange.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/max.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/maxBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/median.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/medianBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/min.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/minBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/percentile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/range.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/rangeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/sum.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "bigint/sumBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/Equals.d.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/IsWritable.d.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/MutableList.d.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/RejectReadonly.d.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/compareValues.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/flattenArrayLike.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/getTag.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/isDeepKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/isIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/isKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/toArgs.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/_internal/toKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/castArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/chunk.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/compact.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/concat.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/countBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/difference.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/differenceBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/differenceWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/drop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/dropRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/dropRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/dropWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/each.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/eachRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/every.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/fill.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/filter.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/find.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/findIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/findLast.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/findLastIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/first.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flatMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flatMapDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flatMapDepth.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flatten.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flattenDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/flattenDepth.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/forEach.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/forEachRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/groupBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/head.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/includes.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/indexOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/initial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/intersection.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/intersectionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/intersectionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/invokeMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/join.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/keyBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/last.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/lastIndexOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/map.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/nth.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/orderBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/partition.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/pull.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/pullAll.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/pullAllBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/pullAllWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/pullAt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/reduce.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/reduceRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/reject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/remove.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/reverse.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sample.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sampleSize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/shuffle.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/size.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/slice.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/some.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedIndexBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedIndexOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedLastIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedLastIndexBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/sortedLastIndexOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/tail.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/take.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/takeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/takeRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/takeWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/union.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/unionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/unionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/uniq.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/uniqBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/uniqWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/unzip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/unzipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/without.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/xor.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/xorBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/xorWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/zip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/zipObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/zipObjectDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/array/zipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/after.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/ary.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/attempt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/before.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/bind.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/bindKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/curry.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/curryRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/debounce.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/defer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/delay.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/flip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/flow.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/flowRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/identity.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/memoize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/negate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/noop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/nthArg.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/once.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/overArgs.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/partial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/partialRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/rearg.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/rest.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/spread.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/throttle.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/unary.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/function/wrap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/add.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/ceil.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/clamp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/divide.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/floor.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/inRange.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/max.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/maxBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/mean.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/meanBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/min.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/minBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/multiply.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/parseInt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/random.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/range.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/rangeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/round.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/subtract.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/sum.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/math/sumBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/assign.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/assignIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/assignInWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/assignWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/at.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/clone.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/cloneDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/cloneDeepWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/cloneWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/create.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/defaults.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/defaultsDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/entries.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/entriesIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/extend.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/extendWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/findKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/findLastKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/forIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/forInRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/forOwn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/forOwnRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/fromPairs.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/functions.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/functionsIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/get.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/has.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/hasIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/invert.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/invertBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/keys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/keysIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/mapKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/mapValues.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/merge.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/mergeWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/omit.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/omitBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/pick.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/pickBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/property.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/propertyOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/result.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/set.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/setWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/toDefaulted.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/toPairs.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/toPairsIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/transform.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/unset.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/update.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/updateWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/values.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/object/valuesIn.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/conforms.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/conformsTo.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isArguments.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isArrayBuffer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isArrayLike.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isArrayLikeObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isBoolean.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isBuffer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isDate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isElement.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isEmpty.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isEqual.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isEqualWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isError.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isFinite.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isFunction.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isInteger.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isLength.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isMatch.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isMatchWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isNaN.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isNative.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isNil.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isNull.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isNumber.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isObjectLike.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isPlainObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isRegExp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isSafeInteger.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isSet.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isSymbol.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isTypedArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isUndefined.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isWeakMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/isWeakSet.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/matches.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/predicate/matchesProperty.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/camelCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/capitalize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/deburr.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/endsWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/escape.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/escapeRegExp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/kebabCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/lowerCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/lowerFirst.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/pad.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/padEnd.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/padStart.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/repeat.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/replace.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/snakeCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/split.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/startCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/startsWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/template.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/toLower.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/toUpper.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/trim.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/trimEnd.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/trimStart.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/truncate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/unescape.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/upperCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/upperFirst.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/string/words.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/bindAll.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/cond.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/constant.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/defaultTo.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/eq.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/gt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/gte.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/invoke.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/iteratee.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/lt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/lte.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/method.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/methodOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/now.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/over.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/overEvery.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/overSome.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/stubArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/stubFalse.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/stubObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/stubString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/stubTrue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/times.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toFinite.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toInteger.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toLength.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toNumber.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toPath.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toPlainObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toSafeInteger.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/toString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "compat/util/uniqueId.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "error/AbortError.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "error/TimeoutError.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/at.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/cartesianProduct.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/chunk.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/chunkBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/combinations.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/compact.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/countBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/difference.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/differenceBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/differenceWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/drop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/dropRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/dropRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/dropWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/filter.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/find.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/findIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/findLast.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/findLastIndex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/flatMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/flatMapDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/flatten.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/flattenDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/forEach.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/groupBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/head.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/initial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/intersection.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/intersectionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/intersectionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/isSubset.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/isSubsetWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/join.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/keyBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/last.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/length.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/map.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/maxBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/minBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/orderBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/partition.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/reverse.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/sample.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/sampleSize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/shuffle.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/sortBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/tail.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/take.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/takeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/takeRightWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/takeWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/toFilled.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/union.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/unionBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/unionWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/uniq.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/uniqBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/uniqWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/unzip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/unzipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/windowed.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/without.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/xor.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/xorBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/xorWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/zip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/zipObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/array/zipWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/flow.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/flowAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/index.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/iterator/index.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/math/add.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/math/multiply.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/object/omit.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/object/pick.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "fp/pipe.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/after.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/ary.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/asyncNoop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/before.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/curry.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/curryRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/debounce.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/flow.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/flowRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/identity.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/memoize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/negate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/noop.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/once.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/partial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/partialRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/rest.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/retry.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/spread.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/throttle.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "function/unary.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/_internal/iterator.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/cartesianProduct.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/chunk.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/count.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/dropWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/head.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/iterate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/partition.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/range.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/scan.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/takeWhile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/uniqBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "iterator/zip.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/countBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/every.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/filter.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/findKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/findValue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/forEach.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/hasValue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/keyBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/mapKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/mapValues.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/reduce.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "map/some.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/clamp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/inRange.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/inverseLerp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/lerp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/mean.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/meanBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/median.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/medianBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/percentile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/random.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/randomInt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/range.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/rangeRight.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/round.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/sum.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "math/sumBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/clone.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/cloneDeep.dom.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/cloneDeep.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/cloneDeepWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/deepFreeze.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/findKey.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/flattenObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/invert.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/mapKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/mapKeysAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/mapValues.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/mapValuesAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/merge.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/mergeWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/omit.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/omitBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/pick.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/pickBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/sortKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toCamelCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toConstantCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toKebabCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toMerged.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toPascalCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "object/toSnakeCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isArrayBuffer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isBlob.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isBoolean.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isBrowser.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isBuffer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isDate.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isEmptyObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isEqual.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isEqualWith.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isError.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isFile.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isFunction.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isIterable.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isJSON.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isJSONValue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isLength.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isNil.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isNode.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isNotNil.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isNull.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isNumber.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isPlainObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isPrimitive.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isPromise.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isRegExp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isSet.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isSymbol.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isTypedArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isUndefined.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isWeakMap.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "predicate/isWeakSet.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/allKeyed.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/delay.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/limitAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/mutex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/semaphore.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/timeout.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "promise/withTimeout.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/_internal/parseHex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/_internal/parseHex.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/_internal/wrapAnsi.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/_internal/wrapAnsi.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/_internal/wrapAnsiBg.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/_internal/wrapAnsiBg.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/ansi256.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/ansi256.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgAnsi256.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgAnsi256.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgBlack.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgBlack.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgBlackBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgBlackBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgBlue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgBlue.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgBlueBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgBlueBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgCyan.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgCyan.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgCyanBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgCyanBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgGreen.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgGreen.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgGreenBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgGreenBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgHex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgHex.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgMagenta.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgMagenta.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgMagentaBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgMagentaBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgRed.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgRed.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgRedBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgRedBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgRgb.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgRgb.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgWhite.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgWhite.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgWhiteBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgWhiteBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgYellow.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgYellow.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bgYellowBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bgYellowBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/black.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/black.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/blackBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/blackBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/blue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/blue.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/blueBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/blueBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/bold.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/bold.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/cyan.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/cyan.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/cyanBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/cyanBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/dim.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/dim.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/gray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/gray.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/green.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/green.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/greenBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/greenBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/hex.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/hex.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/hidden.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/hidden.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/index.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/inverse.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/inverse.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/italic.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/italic.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/magenta.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/magenta.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/magentaBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/magentaBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/red.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/red.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/redBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/redBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/reset.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/reset.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/rgb.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/rgb.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/strikethrough.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/strikethrough.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/types.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/underline.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/underline.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/white.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/white.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/whiteBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/whiteBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/yellow.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/yellow.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/colors/yellowBright.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/colors/yellowBright.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/exec.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "server/exec.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "server/index.ts",
+      "reason": "parameter properties (unsupported by ts-blank-space)"
+    },
+    {
+      "rel": "set/countBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/every.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/filter.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/find.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/forEach.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/keyBy.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/map.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/reduce.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "set/some.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/camelCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/capitalize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/constantCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/deburr.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/dedent.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/escape.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/escapeRegExp.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/kebabCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/lowerCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/lowerFirst.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/pad.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/pascalCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/reverseString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/sentenceCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/snakeCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/startCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/trim.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/trimEnd.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/trimStart.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/unescape.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/upperCase.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/upperFirst.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "string/words.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/DeepPartial.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/DeepReadonly.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/EmptyObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/IsEqual.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/JSONValue.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/Merge.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/NonEmptyArray.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ObjectKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/Primitive.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/SetOptional.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/SetRequired.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/Simplify.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ToCamelCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ToConstantCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ToKebabCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ToPascalCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ToSnakeCaseKeys.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/UnknownRecord.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/ValueOf.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "types/Writable.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/attempt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/attemptAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/defer.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/deferAsync.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/hash/browser.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/hash/node.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/hash/sha256.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/invariant.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/compareValues.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serialize.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeBigInt.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeFunction.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeNumber.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializePlainObject.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeString.spec.ts",
+      "reason": "test/declaration file"
+    },
+    {
+      "rel": "util/serialize/serializeSymbol.spec.ts",
+      "reason": "test/declaration file"
+    }
+  ],
+  "excluded": [
+    {
+      "rel": "function/retry.ts",
+      "reason": "oxidase: output length 5722 != input 5720"
+    }
+  ]
+}

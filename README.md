@@ -3,7 +3,7 @@
 ## Environment
 
 <!-- generated:environment:start -->
-AMD EPYC 7763 64-Core Processor · Linux 6.17.0-1022-azure · Node.js v24.20.0 · vitest 4.1.11 bench mode.
+AMD EPYC 9V45 96-Core Processor · Linux 6.17.0-1022-azure · Node.js v24.21.0 · vitest 5.0.2 bench mode.
 <!-- generated:environment:end -->
 
 ## Results
@@ -11,21 +11,23 @@ AMD EPYC 7763 64-Core Processor · Linux 6.17.0-1022-azure · Node.js v24.20.0 �
 <!-- generated:results:start -->
 | Transpiler | Total best (ms) | Total slow (ms) | Total avg (ms) | Throughput (MB/s) | Speed (oxidase wasm = 1x) |
 |---|---|---|---|---|---|
-| oxidase (native, async, concurrent) | 7.38 | 10.63 | 7.78 | 194.5 | 2.16x |
-| oxidase (native) | 8.23 | 10.71 | 8.39 | 180.3 | 2.00x |
-| petrea (native, async, concurrent) | 12.82 | 14.96 | 13.37 | 113.2 | 1.26x |
-| petrea (native, sync) | 14.86 | 17.20 | 15.09 | 100.3 | 1.11x |
-| oxidase (wasm, published) | 16.37 | 21.30 | 16.79 | 90.1 | 1.00x |
-| rolldown (transform, concurrent) | 24.62 | 28.75 | 25.93 | 58.3 | 0.65x |
-| rolldown (transformSync) | 33.11 | 36.65 | 33.88 | 44.7 | 0.50x |
-| petrea (wasm, sync) | 37.12 | 59.19 | 39.53 | 38.3 | 0.42x |
-| petrea (wasm, async, concurrent) | 42.65 | 71.67 | 46.31 | 32.7 | 0.36x |
-| oxidase (native, async) | 48.83 | 57.59 | 50.34 | 30.1 | 0.33x |
-| petrea (wasm, async) | 51.59 | 79.66 | 54.37 | 27.8 | 0.31x |
-| petrea (native, async) | 65.21 | 72.03 | 66.54 | 22.7 | 0.25x |
-| ts-blank-space | 59.07 | 89.27 | 66.88 | 22.6 | 0.25x |
-| esbuild (concurrent) | 319.85 | 372.94 | 351.39 | 4.3 | 0.05x |
-| esbuild | 505.82 | 718.06 | 601.95 | 2.5 | 0.03x |
+| oxidase (native, async, concurrent) | 2.01 | 4.99 | 2.14 | 708.5 | 4.21x |
+| petrea (native, async, concurrent) | 3.29 | 6.62 | 3.43 | 441.3 | 2.63x |
+| oxidase (native) | 4.66 | 12.41 | 4.78 | 316.7 | 1.88x |
+| rolldown (transform, concurrent) | 5.50 | 13.98 | 6.11 | 247.4 | 1.47x |
+| petrea (native, sync) | 7.76 | 15.11 | 7.95 | 190.3 | 1.13x |
+| oxidase (wasm, published) | 8.80 | 12.39 | 9.00 | 168.1 | 1.00x |
+| oxbox (transform, concurrent) | 8.66 | 21.89 | 10.73 | 141.0 | 0.84x |
+| rolldown (transformSync) | 13.55 | 22.61 | 13.90 | 108.8 | 0.65x |
+| oxbox (transformSync) | 17.44 | 20.16 | 17.78 | 85.1 | 0.51x |
+| petrea (wasm, sync) | 17.74 | 22.48 | 18.12 | 83.5 | 0.50x |
+| oxidase (native, async) | 18.92 | 30.95 | 20.57 | 73.5 | 0.44x |
+| petrea (wasm, async, concurrent) | 19.89 | 36.78 | 21.30 | 71.0 | 0.42x |
+| petrea (wasm, async) | 21.81 | 23.55 | 22.34 | 67.7 | 0.40x |
+| petrea (native, async) | 22.55 | 74.69 | 25.29 | 59.8 | 0.36x |
+| ts-blank-space | 29.75 | 59.12 | 32.24 | 46.9 | 0.28x |
+| esbuild (concurrent) | 103.06 | 140.38 | 118.93 | 12.7 | 0.08x |
+| esbuild | 311.88 | 359.94 | 333.32 | 4.5 | 0.03x |
 <!-- generated:results:end -->
 
 Raw output: `bench-output.txt`.

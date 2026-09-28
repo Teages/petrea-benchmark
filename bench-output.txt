@@ -1,44 +1,30 @@
-[33mBenchmarking is an experimental feature.
-Breaking changes might not follow SemVer, please pin Vitest's version when using it.[39m
 
-[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/home/runner/work/petrea-benchmark/petrea-benchmark[39m
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.2 [39m[90m/home/runner/work/petrea-benchmark/petrea-benchmark[39m
 
-(node:3651) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:3702) ExperimentalWarning: WASI is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
+ [32m✓[39m [30m[42m bench [49m[39m bench/transpile.bench.ts[2m > [22mes-toolkit src, per-file — 846 files / 1.51 MB per pass[33m 80593[2mms[22m[39m
+   [1mname                               [22m  [1m     hz[22m  [1m    min[22m  [1m    max[22m  [1m   mean[22m  [1m    p75[22m  [1m    p99[22m  [1m   p995[22m  [1m   p999[22m  [1m   rme[22m  [1msamples[22m
+   oxidase (native, async, concurrent)  [34m 473.18[39m  [36m 2.0124[39m  [36m 4.9900[39m  [36m 2.1351[39m  [36m 2.1030[39m  [36m 3.3534[39m  [36m 4.4777[39m  [36m 4.8979[39m  [2m±0.70%[22m  [2m   1406[22m[1m[32m   fastest[39m[22m
+   petrea (native, async, concurrent)   [34m 292.58[39m  [36m 3.2938[39m  [36m 6.6152[39m  [36m 3.4274[39m  [36m 3.4292[39m  [36m 4.3089[39m  [36m 4.5284[39m  [36m 5.3242[39m  [2m±0.41%[22m  [2m    876[22m
+   oxidase (native)                     [34m 210.62[39m  [36m 4.6593[39m  [36m12.4081[39m  [36m 4.7765[39m  [36m 4.7129[39m  [36m 7.4048[39m  [36m 7.8704[39m  [36m11.9107[39m  [2m±0.86%[22m  [2m    629[22m
+   rolldown (transform, concurrent)     [34m 165.13[39m  [36m 5.5040[39m  [36m13.9760[39m  [36m 6.1131[39m  [36m 6.0628[39m  [36m 8.4303[39m  [36m 9.3071[39m  [36m12.2066[39m  [2m±1.02%[22m  [2m    491[22m
+   petrea (native, sync)                [34m 126.09[39m  [36m 7.7611[39m  [36m15.1149[39m  [36m 7.9476[39m  [36m 7.9490[39m  [36m 9.3684[39m  [36m 9.8137[39m  [36m13.7612[39m  [2m±0.59%[22m  [2m    378[22m
+   oxidase (wasm, published)            [34m 111.25[39m  [36m 8.8013[39m  [36m12.3877[39m  [36m 8.9973[39m  [36m 9.0364[39m  [36m 9.7324[39m  [36m10.0195[39m  [36m11.7655[39m  [2m±0.36%[22m  [2m    334[22m
+   oxbox (transform, concurrent)        [34m96.5039[39m  [36m 8.6643[39m  [36m21.8931[39m  [36m10.7309[39m  [36m11.9696[39m  [36m18.7099[39m  [36m21.5797[39m  [36m21.8435[39m  [2m±2.53%[22m  [2m    280[22m
+   rolldown (transformSync)             [34m72.2024[39m  [36m13.5456[39m  [36m22.6105[39m  [36m13.8980[39m  [36m13.7813[39m  [36m20.0963[39m  [36m21.3158[39m  [36m22.3411[39m  [2m±0.96%[22m  [2m    217[22m
+   oxbox (transformSync)                [34m56.2627[39m  [36m17.4370[39m  [36m20.1563[39m  [36m17.7835[39m  [36m17.8255[39m  [36m19.3660[39m  [36m19.6311[39m  [36m20.0513[39m  [2m±0.37%[22m  [2m    169[22m
+   petrea (wasm, sync)                  [34m55.2443[39m  [36m17.7438[39m  [36m22.4824[39m  [36m18.1177[39m  [36m18.1952[39m  [36m20.6237[39m  [36m21.8612[39m  [36m22.3582[39m  [2m±0.49%[22m  [2m    166[22m
+   oxidase (native, async)              [34m48.7719[39m  [36m18.9177[39m  [36m30.9541[39m  [36m20.5745[39m  [36m21.2287[39m  [36m23.3146[39m  [36m25.4438[39m  [36m29.8521[39m  [2m±1.05%[22m  [2m    146[22m
+   petrea (wasm, async, concurrent)     [34m47.2154[39m  [36m19.8915[39m  [36m36.7789[39m  [36m21.3037[39m  [36m21.4339[39m  [36m32.1692[39m  [36m34.9408[39m  [36m36.4113[39m  [2m±1.56%[22m  [2m    141[22m
+   petrea (wasm, async)                 [34m44.7701[39m  [36m21.8074[39m  [36m23.5523[39m  [36m22.3433[39m  [36m22.5543[39m  [36m23.5088[39m  [36m23.5249[39m  [36m23.5468[39m  [2m±0.30%[22m  [2m    135[22m
+   petrea (native, async)               [34m40.2140[39m  [36m22.5525[39m  [36m74.6935[39m  [36m25.2878[39m  [36m25.5477[39m  [36m42.1413[39m  [36m56.8850[39m  [36m71.1318[39m  [2m±3.65%[22m  [2m    119[22m
+   ts-blank-space                       [34m31.3177[39m  [36m29.7475[39m  [36m59.1248[39m  [36m32.2404[39m  [36m32.2368[39m  [36m53.2927[39m  [36m56.2088[39m  [36m58.5416[39m  [2m±2.52%[22m  [2m     94[22m
+   esbuild (concurrent)                 [34m 8.4607[39m  [36m 103.06[39m  [36m 140.38[39m  [36m 118.93[39m  [36m 125.19[39m  [36m 140.10[39m  [36m 140.24[39m  [36m 140.36[39m  [2m±2.01%[22m  [2m     64[22m
+   esbuild                              [34m 3.0032[39m  [36m 311.88[39m  [36m 359.94[39m  [36m 333.32[39m  [36m 341.10[39m  [36m 357.15[39m  [36m 358.55[39m  [36m 359.66[39m  [2m±0.81%[22m  [2m     64[22m[1m[90m   slowest[39m[22m
 
- [32m✓[39m bench/transpile.bench.ts[2m > [22mes-toolkit src, per-file — 846 files / 1.51 MB per pass[33m 56746[2mms[22m[39m
-     [1mname                               [22m  [1m     hz[22m  [1m    min[22m  [1m    max[22m  [1m   mean[22m  [1m    p75[22m  [1m    p99[22m  [1m   p995[22m  [1m   p999[22m  [1m   rme[22m  [1msamples[22m
-   [32m·[39m oxidase (wasm, published)            [34m59.5487[39m  [36m16.3692[39m  [36m21.3030[39m  [36m16.7930[39m  [36m16.8994[39m  [36m19.0424[39m  [36m21.3030[39m  [36m21.3030[39m  [2m±0.50%[22m  [2m    179[22m
-   [32m·[39m oxidase (native)                     [34m 119.22[39m  [36m 8.2303[39m  [36m10.7080[39m  [36m 8.3879[39m  [36m 8.3854[39m  [36m 9.6260[39m  [36m10.6589[39m  [36m10.7080[39m  [2m±0.29%[22m  [2m    358[22m
-   [32m·[39m oxidase (native, async)              [34m19.8666[39m  [36m48.8255[39m  [36m57.5866[39m  [36m50.3358[39m  [36m50.4703[39m  [36m57.5866[39m  [36m57.5866[39m  [36m57.5866[39m  [2m±0.59%[22m  [2m     60[22m
-   [32m·[39m oxidase (native, async, concurrent)  [34m 128.57[39m  [36m 7.3753[39m  [36m10.6344[39m  [36m 7.7776[39m  [36m 7.8712[39m  [36m 9.8160[39m  [36m10.5373[39m  [36m10.6344[39m  [2m±0.48%[22m  [2m    386[22m
-   [32m·[39m ts-blank-space                       [34m14.9511[39m  [36m59.0684[39m  [36m89.2698[39m  [36m66.8847[39m  [36m67.8419[39m  [36m89.2698[39m  [36m89.2698[39m  [36m89.2698[39m  [2m±3.83%[22m  [2m     45[22m
-   [32m·[39m petrea (native, sync)                [34m66.2912[39m  [36m14.8573[39m  [36m17.2024[39m  [36m15.0850[39m  [36m15.1202[39m  [36m16.7746[39m  [36m17.2024[39m  [36m17.2024[39m  [2m±0.24%[22m  [2m    199[22m
-   [32m·[39m petrea (native, async)               [34m15.0295[39m  [36m65.2051[39m  [36m72.0252[39m  [36m66.5358[39m  [36m66.6336[39m  [36m72.0252[39m  [36m72.0252[39m  [36m72.0252[39m  [2m±0.57%[22m  [2m     46[22m
-   [32m·[39m petrea (native, async, concurrent)   [34m74.8146[39m  [36m12.8245[39m  [36m14.9622[39m  [36m13.3664[39m  [36m13.4997[39m  [36m14.8896[39m  [36m14.9444[39m  [36m14.9622[39m  [2m±0.37%[22m  [2m    225[22m
-   [32m·[39m petrea (wasm, sync)                  [34m25.2997[39m  [36m37.1217[39m  [36m59.1939[39m  [36m39.5262[39m  [36m39.6262[39m  [36m59.1939[39m  [36m59.1939[39m  [36m59.1939[39m  [2m±2.02%[22m  [2m     76[22m
-   [32m·[39m petrea (wasm, async)                 [34m18.3935[39m  [36m51.5886[39m  [36m79.6567[39m  [36m54.3670[39m  [36m54.1750[39m  [36m79.6567[39m  [36m79.6567[39m  [36m79.6567[39m  [2m±2.53%[22m  [2m     56[22m
-   [32m·[39m petrea (wasm, async, concurrent)     [34m21.5940[39m  [36m42.6530[39m  [36m71.6723[39m  [36m46.3091[39m  [36m46.1229[39m  [36m71.6723[39m  [36m71.6723[39m  [36m71.6723[39m  [2m±3.28%[22m  [2m     65[22m
-   [32m·[39m esbuild                              [34m 1.6613[39m  [36m 505.82[39m  [36m 718.06[39m  [36m 601.95[39m  [36m 608.82[39m  [36m 718.06[39m  [36m 718.06[39m  [36m 718.06[39m  [2m±6.25%[22m  [2m     10[22m
-   [32m·[39m esbuild (concurrent)                 [34m 2.8459[39m  [36m 319.85[39m  [36m 372.94[39m  [36m 351.39[39m  [36m 365.87[39m  [36m 372.94[39m  [36m 372.94[39m  [36m 372.94[39m  [2m±3.59%[22m  [2m     10[22m
-   [32m·[39m rolldown (transformSync)             [34m29.5195[39m  [36m33.1076[39m  [36m36.6528[39m  [36m33.8759[39m  [36m33.8339[39m  [36m36.6528[39m  [36m36.6528[39m  [36m36.6528[39m  [2m±0.55%[22m  [2m     89[22m
-   [32m·[39m rolldown (transform, concurrent)     [34m38.5646[39m  [36m24.6170[39m  [36m28.7465[39m  [36m25.9305[39m  [36m26.3968[39m  [36m28.2487[39m  [36m28.7465[39m  [36m28.7465[39m  [2m±0.62%[22m  [2m    116[22m
-
-[1m[30m[46m BENCH [49m[39m[22m [36mSummary
-[39m
-  oxidase (native, async, concurrent)[2m - bench/transpile.bench.ts[2m > [22m[2mes-toolkit src, per-file — 846 files / 1.51 MB per pass[22m
-[32m    1.08x [39m[90mfaster than [39moxidase (native)
-[32m    1.72x [39m[90mfaster than [39mpetrea (native, async, concurrent)
-[32m    1.94x [39m[90mfaster than [39mpetrea (native, sync)
-[32m    2.16x [39m[90mfaster than [39moxidase (wasm, published)
-[32m    3.33x [39m[90mfaster than [39mrolldown (transform, concurrent)
-[32m    4.36x [39m[90mfaster than [39mrolldown (transformSync)
-[32m    5.08x [39m[90mfaster than [39mpetrea (wasm, sync)
-[32m    5.95x [39m[90mfaster than [39mpetrea (wasm, async, concurrent)
-[32m    6.47x [39m[90mfaster than [39moxidase (native, async)
-[32m    6.99x [39m[90mfaster than [39mpetrea (wasm, async)
-[32m    8.55x [39m[90mfaster than [39mpetrea (native, async)
-[32m    8.60x [39m[90mfaster than [39mts-blank-space
-[32m    45.18x [39m[90mfaster than [39mesbuild (concurrent)
-[32m    77.40x [39m[90mfaster than [39mesbuild
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m   Start at [22m 23:19:57
+[2m   Duration [22m 80.97s[2m (tests 100%)[22m
 

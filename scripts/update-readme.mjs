@@ -15,7 +15,9 @@ const bytes = corpus.reduce((n, f) => n + f.bytes, 0)
 
 const txt = readFileSync(join(root, 'bench-output.txt'), 'utf8').replace(ansi, '')
 const rows = []
-for (const m of txt.matchAll(/^\s+· (.+?)\s{2,}(\d[\d.]*)\s+([\d.]+)\s+([\d.]+)\s+([\d.]+)\s+/gm)) {
+// vitest ≥5 verbose reporter rows: `<indent>name  hz  min  max  mean  p75 ...`
+// (hz may carry thousands separators; the header row's `hz` fails the number match)
+for (const m of txt.matchAll(/^\s{2,}(.+?)\s{2,}([\d,]+(?:\.\d+)?)\s+([\d.]+)\s+([\d.]+)\s+([\d.]+)\s+/gm)) {
   rows.push({ name: m[1].trim(), min: +m[3], max: +m[4], mean: +m[5] })
 }
 if (rows.length === 0) throw new Error('no benchmark rows parsed from bench-output.txt')
@@ -39,6 +41,8 @@ const expected = [
   'petrea (wasm, async)',
   'esbuild (concurrent)',
   'esbuild',
+  'oxbox (transformSync)',
+  'oxbox (transform, concurrent)',
 ]
 for (const name of expected) {
   if (!rows.some(r => r.name === name)) throw new Error(`row "${name}" not found in bench-output.txt`)

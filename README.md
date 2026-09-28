@@ -32,10 +32,11 @@ Raw output: `bench-output.txt`.
 
 ## Notes
 
-- petrea 0.4.1 — native napi binding and `petrea/wasm` (wasm32-wasip1); both entries benchmarked.
+- petrea 0.5.1 — native napi binding and `petrea/wasm` (wasm32-wasip1); both entries benchmarked.
 - oxidase 0.0.3 — the published npm build is wasm-bindgen only (no native entry).
 - ts-blank-space 0.9.0 — pure JS, TypeScript compiler parser.
-- rolldown 1.2.8 — `rolldown/experimental` transform (oxc-transform, in-process napi); full TS→JS rewrite, not position-preserving.
+- oxbox 0.1.0 — oxc parser + transformer as a single portable wasm module (emnapi host, async APIs on worker threads); same oxc-transform API, full TS→JS rewrite, not position-preserving.
+- rolldown 1.2.11 — `rolldown/experimental` transform (oxc-transform, in-process napi); full TS→JS rewrite, not position-preserving.
 - esbuild 0.28.2 — npm JS API, per-file `transform` across the Go service IPC.
 - Our changes: oxidase's source (submodule @ `045ea46`, the exact source of the npm release) is built as a local napi binding via `patches/oxidase-native.patch` — a line-for-line mirror of upstream's wasm binding, plus a locally added async API (upstream ships sync-only).
 - Corpus: es-toolkit `src/` (submodule @ `9c6ca7d`), 846 files / 1.51 MB; every file accepted by every stripper in strict mode with output length identical to input. Two files excluded (`corpus-excluded.json`): `function/retry.ts` — oxidase 0.0.3 emits output longer than its input; `server/exec.ts` — parameter properties, unsupported by all three.

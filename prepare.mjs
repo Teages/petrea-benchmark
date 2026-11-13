@@ -34,6 +34,12 @@ const { transpileSync: petreaSync } = await import(pathToFileURL(join(root, 'nod
 const { transpile: oxidaseTranspile } = await import('oxidase')
 const tsBlankSpace = (await import('ts-blank-space')).default
 
+// typestrip: vendored submodule + committed wasm engine (see README); the wrapper
+// resolves the engine path at module init, so the env var must be set first.
+// No onError → throws UnsupportedSyntaxError on unsupported syntax (strict).
+process.env.TYPESTRIP_ERASE_WASM = join(root, 'native/typestrip-erase.wasm')
+const { transformSync: typestripSync } = await import(pathToFileURL(join(root, 'vendor/typestrip/src/index.js')).href)
+
 const onUnsupported = () => {
   throw new Error('unsupported TypeScript syntax (runtime TS construct)')
 }
@@ -41,6 +47,7 @@ const tools = {
   'petrea': s => petreaSync(s, { onError: onUnsupported }),
   'oxidase': s => oxidaseTranspile(s),
   'ts-blank-space': s => tsBlankSpace(s, onUnsupported),
+  'typestrip': s => typestripSync(s),
 }
 
 const corpus = []

@@ -41,6 +41,14 @@ const rolldownTransformConc = rolldownTransform
 const oxboxTransformSyncFn = oxboxTransformSync
 const oxboxTransformConc = oxboxTransform
 
+// typestrip ships no npm build (upstream repo is `private: true`): the JS wrapper
+// comes from the vendored submodule, the wasm engine from the committed artifact
+// in native/ (platform-independent; build recipe in README). The wrapper reads
+// TYPESTRIP_ERASE_WASM at module init, so the env must be set before the import —
+// hence the dynamic import instead of a static one.
+process.env.TYPESTRIP_ERASE_WASM = join(root, 'native/typestrip-erase.wasm')
+const { transformSync: typestripEraseFn } = await import('../vendor/typestrip/src/index.js')
+
 // oxbox lazily decodes/instantiates its embedded wasm on first call; warm it
 // ahead of the timed benches (sync APIs need this in browsers, and it keeps the
 // first warmup iteration from paying the one-time init cost).
@@ -71,6 +79,10 @@ test(`es-toolkit src, per-file — ${corpus.length} files / ${totalMB.toFixed(2)
 
     bench('ts-blank-space', () => {
       for (const f of sources) sink += tbs(f.source).length
+    }),
+
+    bench('typestrip', () => {
+      for (const f of sources) sink += typestripEraseFn(f.source).length
     }),
 
     bench('petrea (native, sync)', () => {

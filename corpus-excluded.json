@@ -2876,7 +2876,7 @@
     },
     {
       "rel": "server/exec.ts",
-      "reason": "petrea: unsupported TypeScript syntax (runtime TS construct) | oxidase: output length 4252 != input 4226 | ts-blank-space: unsupported TypeScript syntax (runtime TS construct)"
+      "reason": "petrea: unsupported TypeScript syntax (runtime TS construct) | oxidase: output length 4252 != input 4226 | ts-blank-space: unsupported TypeScript syntax (runtime TS construct) | typestrip: typestrip: TypeScript syntax that cannot be erased at offset 3284"
     }
   ]
 }

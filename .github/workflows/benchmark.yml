@@ -17,6 +17,11 @@ jobs:
 
       - uses: dtolnay/rust-toolchain@stable
 
+      # zena's cargo workspace pulls a fontconfig-dependent crate whose build.rs
+      # needs pkg-config + fontconfig headers (not preinstalled on the runner).
+      - name: Install fontconfig dev packages for the zena build
+        run: sudo apt-get update && sudo apt-get install -y pkg-config libfontconfig-dev
+
       # zena (the compiler for typestrip's wasm engine) needs Node.js 25 to
       # build; the bench itself runs on the pinned Node 24 below.
       - uses: actions/setup-node@v4

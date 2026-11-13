@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bench": "vitest bench --run",
-    "build:oxidase-native": "sh build-oxidase-native.sh"
+    "build:oxidase-native": "sh build-oxidase-native.sh",
+    "build:typestrip-wasm": "sh build-typestrip-wasm.sh"
   },
   "keywords": [],
   "author": "",

@@ -4,3 +4,6 @@
 [submodule "vendor/oxidase"]
 	path = vendor/oxidase
 	url = https://github.com/branchseer/oxidase
+[submodule "vendor/typestrip"]
+	path = vendor/typestrip
+	url = https://tangled.org/nibling.dev/typestrip

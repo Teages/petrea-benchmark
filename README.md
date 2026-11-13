@@ -37,10 +37,12 @@ Raw output: `bench-output.txt`.
 - petrea 0.5.1 — native napi binding and `petrea/wasm` (wasm32-wasip1); both entries benchmarked.
 - oxidase 0.0.3 — the published npm build is wasm-bindgen only (no native entry).
 - ts-blank-space 0.9.0 — pure JS, TypeScript compiler parser.
+- typestrip (tangled.org/nibling.dev/typestrip, submodule @ `7f4973a`) — WasmGC engine (zero imports), `transformSync` erase mode: blank-in-place like ts-blank-space; strict by default (no `onError` → `UnsupportedSyntaxError`).
 - oxbox 0.1.0 — oxc parser + transformer as a single portable wasm module (emnapi host, async APIs on worker threads); same oxc-transform API, full TS→JS rewrite, not position-preserving.
 - rolldown 1.2.11 — `rolldown/experimental` transform (oxc-transform, in-process napi); full TS→JS rewrite, not position-preserving.
 - esbuild 0.28.2 — npm JS API, per-file `transform` across the Go service IPC.
 - Our changes: oxidase's source (submodule @ `045ea46`, the exact source of the npm release) is built as a local napi binding via `patches/oxidase-native.patch` — a line-for-line mirror of upstream's wasm binding, plus a locally added async API (upstream ships sync-only).
+- Our changes: typestrip has no npm release (upstream repo is `private: true`), so its JS wrapper comes from the vendored submodule and the engine is built from pinned sources via `build-typestrip-wasm.sh` — zena-cli built from elematic/zena @ `a7c1d2cd` (Rust + Node 25, shallow-cloned into `.build/`), then typestrip's own `scripts/build.sh` with binaryen. CI builds it fresh each run (zena workspace cached); the committed `native/typestrip-erase.wasm` (platform-independent, 30 kB / 12.6 kB gzip, matching upstream's README table) is a convenience copy for local runs.
 - Corpus: es-toolkit `src/` (submodule @ `9c6ca7d`), 846 files / 1.51 MB; every file accepted by every stripper in strict mode with output length identical to input. Two files excluded (`corpus-excluded.json`): `function/retry.ts` — oxidase 0.0.3 emits output longer than its input; `server/exec.ts` — parameter properties, unsupported by all three.
 - Measurement: one timed iteration = transpile all files sequentially, sources preloaded in memory; `concurrent` rows submit all files at once (`Promise.all`) and measure batch wall-clock. Numbers are measured by the GitHub Actions workflow on the runner listed in Environment.
 
@@ -51,5 +53,6 @@ npm install
 git submodule update --init --depth 1
 node prepare.mjs            # build corpus.json + compatibility pre-check
 npm run build:oxidase-native  # builds for this platform, needs Rust (a darwin-arm64 .node is prebuilt)
+npm run build:typestrip-wasm  # rebuilds the engine from source, needs Node 25 + Rust (a prebuilt wasm is committed)
 npm run bench
 ```

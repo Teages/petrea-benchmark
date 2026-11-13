@@ -9,17 +9,32 @@ permissions:
 jobs:
   bench:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
 
+      - uses: dtolnay/rust-toolchain@stable
+
+      # zena (the compiler for typestrip's wasm engine) needs Node.js 25 to
+      # build; the bench itself runs on the pinned Node 24 below.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25
+
+      - name: Cache the zena build workspace
+        uses: actions/cache@v4
+        with:
+          path: .build/zena
+          key: typestrip-zena-${{ hashFiles('build-typestrip-wasm.sh') }}
+
+      - name: Build typestrip wasm engine from pinned sources
+        run: npm run build:typestrip-wasm
+
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-
-      - uses: dtolnay/rust-toolchain@stable
 
       - name: Install dependencies
         run: npm install
